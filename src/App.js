@@ -22,9 +22,9 @@ function App() {
       const apiPromises = []
       // this api returns a total of 60 planet results, 10 per page
       resultsCountRequired = (Number(res.data.count) / 10)
-      //push the first apr response to apiPromises
+      //push the first api response to apiPromises
       apiPromises.push(planetsApi)
-      //then make push the remaining urls to visit to the apiPromises array
+      //then make push the remaining urls to the apiPromises array
       for (let i=1; i<resultsCountRequired;i++) {
           apiPromises.push(`https://swapi.dev/api/planets/?page=${i + 1}`)
         }
@@ -37,6 +37,7 @@ function App() {
           .then(res => {
              //pushthe results to a processedResponses array
             processedResponses.push(res.data.results)
+            //update state with the processedResponses data
             setPlanets([...planets, ...processedResponses])
             // set loading to false
             setLoading(false)
