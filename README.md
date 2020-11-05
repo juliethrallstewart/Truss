@@ -1,3 +1,33 @@
+# Instructions to view app locally
+
+- Fork the repository and copy the url
+- In your terminal, run command 'git clone 'url-link''
+- cd into the 'planets' folder
+- Run command 'yarn start'
+
+## Included libraries
+
+- React Table [react-table](https://react-table.tanstack.com/docs/quick-start)
+
+## Completed Tasks
+
+- The planet's name
+- The name should be a link that, when clicked, opens the planet's API URL in a new window
+- The planet's climate
+- How many residents the planet has
+- The terrains found on the planet
+- The population
+- The surface area covered by water in percentage rounded to nearest integer
+- Show a loading message while loading the data, and hide this message once the data is displayed.
+- Display an error message if the data load fails for some reason. We may test your code against an invalid URL to demonstrate this.
+- Any column that is unknown should be displayed as ?
+- Cells in the table should be separated by 1 pixel gray lines.
+
+## In progress tasks
+
+- Format all numbers larger than 999 with spaces to group digits into groups of three. For example, ten thousand should be displayed as 10 000.
+- Sort the planets alphabetically
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
