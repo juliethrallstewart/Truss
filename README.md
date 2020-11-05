@@ -1,8 +1,9 @@
 # Instructions to view app locally
 
-- Fork the repository and copy the url
-- In your terminal, run command 'git clone 'url-link''
-- cd into the 'planets' folder
+- Fork the repository
+- In your terminal, run command 'git clone 'url-link'' in the directory you wish to clone the repo
+- Run command 'cd Truss'
+- Run command 'yarn install'
 - Run command 'yarn start'
 
 ## Included libraries
@@ -18,15 +19,15 @@
 - The terrains found on the planet
 - The population
 - The surface area covered by water in percentage rounded to nearest integer
-- Show a loading message while loading the data, and hide this message once the data is displayed.
-- Display an error message if the data load fails for some reason. We may test your code against an invalid URL to demonstrate this.
+- Show a loading message while loading the data, and hide this message once the data is displayed
+- Display an error message if the data load fails for some reason
 - Any column that is unknown should be displayed as ?
-- Cells in the table should be separated by 1 pixel gray lines.
+- Cells in the table should be separated by 1 pixel gray lines
+- Sort the planets alphabetically
 
 ## In progress tasks
 
-- Format all numbers larger than 999 with spaces to group digits into groups of three. For example, ten thousand should be displayed as 10 000.
-- Sort the planets alphabetically
+- Format all numbers larger than 999 with spaces to group digits into groups of three. For example, ten thousand should be displayed as 10 000
 
 # Getting Started with Create React App
 
