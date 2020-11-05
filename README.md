@@ -1,3 +1,5 @@
+## This app is built with create-react-app
+
 # Instructions to view app locally
 
 - Fork the repository
